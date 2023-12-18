@@ -1,0 +1,55 @@
+.container{
+    background: linear-gradient(90deg, rgb(241, 70, 70) 10%, rgba(255,23,23,1) 27%);
+    width: 100%;  
+    display: flex;
+    clip-path: polygon(0% 0%, 0% 100%, 45% 100%, 65% 48%, 100% 45%, 100% 0%);
+    min-width: 1000px;
+    border-bottom: 10px;
+    border-color: rgb(172, 5, 5);
+    border-style: solid;
+    border-width:4px;
+    position: fixed;
+    top: -100px;
+    
+}
+.bluedot{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(61, 132, 238);
+    border-radius: 50%;
+    border-color: white;
+    border-width:5px;
+    border-style: solid;
+    margin: 20px;
+}
+.bluedot:hover{  
+    background-color:  rgb(34, 92, 179);
+}
+.dots{
+  width: 20px;  
+  height: 20px;
+  background-color: black;
+  border-radius: 50%;
+  margin: 10px 5px ;
+  border-color: rgb(0, 0, 0);
+  border-width:1px;
+  border-style: solid;
+}
+#red{
+   background-color: rgb(238, 80, 80);
+}
+#yellow{
+    background-color: yellow;
+}
+#green{
+    background-color: rgb(33, 228, 33);
+}
+.linkbutton{
+    margin: 14px;
+    text-decoration: none;
+    color: white;
+}
+.linkbutton:hover{
+    
+    color: rgb(77, 151, 236);
+}

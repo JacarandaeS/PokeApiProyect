@@ -1,0 +1,107 @@
+.card-container{
+    background: linear-gradient(140deg, rgba(57,56,56,1) 10%, rgba(33,29,29,1) 40%);
+    width: 72vw;
+    height: fit-content;
+    border-radius: 20px;
+    display: flex;
+    padding: 5px;
+    justify-content: space-around;
+    box-shadow: 20px 20px 40px -10px rgba(0,0,0,0.75);
+    margin-bottom: 16px;
+}
+.img-background{
+    background-color: rgba(105, 100, 100, 0.5);
+    width: fit-content;
+    border-radius: 20px;  
+    margin-bottom: 20px;
+    border: solid;
+    border-color: rgb(160, 157, 157);
+    box-shadow: 20px; 
+}
+.title{
+    margin-top: 60px;
+    font-size: 60px;
+    margin-bottom: 0px; 
+    color: white;  
+}
+.shiny-button{
+    max-width: max-content;
+    height: 30px;
+    margin: 10px;
+    background-color: rgba(105, 100, 100, 0.3);
+    border-radius: 30px;
+    padding: 10px;
+    color: white;
+}
+.shiny-button:hover{
+    background-color: rgba(105, 100, 100, 0.5);
+}
+.left-side-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 40px 10px 10px;
+    border-radius: 20px;   
+}
+.img{
+    height: 390px;   
+}
+.elements{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 65px 40px 10px 10px;
+}
+.link-button-card{
+    color: rgb(217, 142, 240);
+    font-weight: 800;
+    font-size: 20px;
+    text-decoration: none;
+}
+.link-button-card:hover{
+    color: rgb(143, 59, 221);
+    
+}
+.fav-button{
+    max-width: max-content;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(105, 100, 100, 0.3);
+    border-radius: 30px;
+    color: white;
+}
+
+.fav-button:hover{
+    background-color: rgba(105, 100, 100, 0.5)
+}
+.stats-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 65px;
+}
+.button-div{
+    display: flex;
+    margin: 0;
+}
+@media screen and (max-width: 1380px) {
+    .card-container {
+      flex-direction: column;
+    }
+    .button-div{
+        min-height: fit-content;
+        margin: 10px 0px;
+        flex-direction: column;
+        align-items: center;      
+    }
+
+    .left-side-card{
+        margin: 0px       
+    }
+    .elements{
+        margin: 25px 10px 1px 10px;
+    }
+        
+}
+  
+  
