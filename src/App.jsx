@@ -4,7 +4,7 @@ import Navbar from './Components/Navbar/Navbar'
 import Favs from './Pages/Favs/Favs'
 import Home from './Pages/Home/Home'
 import PokeDetails from './Pages/PokeDetails/PokeDetails'
-import TypeDetails from './Pages/typeDetails/typeDetails'
+import TypeDetails from './Pages/TypeDetails/TypeDetails'
 import { Route, Routes } from 'react-router-dom'
 
 function App() {
