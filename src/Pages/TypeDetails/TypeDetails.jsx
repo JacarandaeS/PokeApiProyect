@@ -32,9 +32,7 @@ const TypeDetails = () => {
           <h2>{typeData.name}</h2>
           <p>{typeData.generation.name}</p>
           <p>theres is no really anything cool to display but it does make a good example to practice lol</p>
-          <p>takes double damage from</p>
-          <p>{typeData.damage_relations.double_damage_from[0].name}</p>
-        {/* {typeData.move && typeData.move.lenght > 0 ?} */}
+
 
 
         </div>
